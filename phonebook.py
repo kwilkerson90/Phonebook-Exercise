@@ -25,18 +25,23 @@ number = {
 def entries():
     names = ["Kendra", "Kru", "Dominique"]
     
-    print ("Would you like to add?")
-    a = input()
-    if a == ("yes"):
-        b = input()
+    #print ("Would you like to add?")
+    a = input("Would you like to add?")
+    if (a == "yes"):
+        b = input("What's your name?")
+        names.append(b)
+        print(names)
 entries()
 
 def contactinfo():
     numbers = ["111", "222", "333"]
 
-    print ("Would you like to add?")
-    a = input()
-    if a == ("yes"):
-        b = input()
+    #print ("Would you like to add?")
+    a = input("Can I have your number?")
+    if (a == "yes"):
+        b = input("What's your number?")
+        numbers.append(b)
+        print(numbers)
 contactinfo()
+
 
